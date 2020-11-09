@@ -1,0 +1,44 @@
+.title {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.days {
+  width: 95vw;
+  display: block;
+  margin: 0 auto;
+}
+
+.days .title {
+  width: 10vw;
+  height: 10vw;
+  line-height: 10vw;
+  display: inline-block;
+  border: solid 1px #fff;
+  border-radius: 50%;
+  text-align: center;
+  margin: 1.5vw;
+  font-weight: 800;
+}
+
+.days .body {
+  width: 10vw;
+  height: 10vw;
+  line-height: 10vw;
+  display: inline-block;
+  background-color: #fcfcfc;
+  border: solid 1px #fcfcfc;
+  border-radius: 50%;
+  text-align: center;
+  margin: 1.5vw;
+}
+
+.days .last,
+.days .next {
+  color: #bfbfbf;
+}
+
+.days .today {
+  border: solid 1px #ccc;
+}

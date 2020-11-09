@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+  <calendar year="{{year}}" month="{{month}}" bind:select="on_select" bind:screendays="on_screendays" />
+  <!-- <calendar bind:select="on_select" /> -->
+</view>

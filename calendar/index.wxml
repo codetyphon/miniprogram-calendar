@@ -1,0 +1,8 @@
+<view>
+  <text class="title">{{year}}年 {{month}}月</text>
+  <view class="days">
+    <text class="title" wx:for="{{daystitle}}" wx:key="index">{{item}}</text>
+    <text wx:for="{{days}}" wx:key="index" class="body {{item.class}} {{item.number==day && item.class=='this'?'today':'nottoday'}}"
+      data-item="{{item}}" bindtap="on_select">{{item.number}}</text>
+  </view>
+</view>
